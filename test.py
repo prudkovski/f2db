@@ -1,5 +1,3 @@
-import mysql.connector
+import MySQLdb
 
-#make remote connection
-
-
+myDB = MySQLdb.connect(host="", port=3306, user="", passwd="", db="")
